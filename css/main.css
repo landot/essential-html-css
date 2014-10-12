@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+body {
+	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 18px;
+	font-weight:300;
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+a:visited, a:link {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+a:hover {
+	background-color:#0000EE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway';
+	font-weight = 300; 
+}
+
+h1 {
+	font-size: 300%;
+	margin: 0;
+}
+
+h2 {
+	font-size: 150%;
+	margin: 0;
+}
+
+h3 {
+	font-size: 125%;
+}
+
+
+h2, h3 {
+	font-color: #505050;
+}
+
+#business-information, #menu, #about-us {
+	background-image: url('../img/ricepaper_v3.png');
+	opacity: 0.9;
+}
+
+main {
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px;
+	border-bottom-color: #EA4A00;
+	color: #FFFFFF;
+}
+
+footer {
+	padding: 1em;
+	background-color: #FC892F;
+	border-top: 5px;
+	border-top-color: #EC791F;
+	font-size: 80%;
+	text-align: right;
+}
+
+#menu {
+	padding: 1em;
+	background-color: rgba(207, 205, 140, 0.5);
+
+}
+
+#about-us {
+	padding: 1em;
+}
