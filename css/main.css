@@ -25,7 +25,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway';
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
 	font-weight = 300; 
 }
 
@@ -37,18 +37,15 @@ h1 {
 h2 {
 	font-size: 150%;
 	margin: 0;
+	font-color:#505050;
 }
 
 h3 {
 	font-size: 125%;
-}
-
-
-h2, h3 {
 	font-color: #505050;
 }
 
-#business-information, #menu, #about-us {
+.business-information, .about-us {
 	background-image: url('../img/ricepaper_v3.png');
 	opacity: 0.9;
 }
@@ -61,6 +58,16 @@ main {
 	color: #FFFFFF;
 }
 
+main h2{
+	font-size:120%;
+	color: #EEEEEE;
+	margin: 0;
+}
+
+.business-information {
+	padding: 1em;
+}
+
 footer {
 	padding: 1em;
 	background-color: #FC892F;
@@ -70,12 +77,22 @@ footer {
 	text-align: right;
 }
 
-#menu {
+.menu {
 	padding: 1em;
 	background-color: rgba(207, 205, 140, 0.5);
-
 }
 
-#about-us {
+.menu dt{
+	font-weight: 400;
+}
+
+.menu dd{
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+.about-us {
 	padding: 1em;
 }
