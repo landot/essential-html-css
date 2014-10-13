@@ -53,7 +53,8 @@ h3 {
 main {
 	padding: 1em;
 	background-color: #FA5A0F;
-	border-bottom: 5px;
+	border-bottom: solid; 
+	border-bottom-width: 5px;
 	border-bottom-color: #EA4A00;
 	color: #FFFFFF;
 }
@@ -71,7 +72,8 @@ main h2{
 footer {
 	padding: 1em;
 	background-color: #FC892F;
-	border-top: 5px;
+	border-top: solid;
+	border-top-width: 5px;
 	border-top-color: #EC791F;
 	font-size: 80%;
 	text-align: right;
