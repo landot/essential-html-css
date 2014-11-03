@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:300);
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
 
+
 body {
 	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
 	font-size: 18px;
@@ -13,6 +14,12 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
+}
+
+.general-info-section, .menu, .about-us {
+	background-image: url('../img/ricepaper_v3.png');
+	opacity: 0.9;
+	padding: 1em;
 }
 
 a:visited, a:link {
@@ -48,13 +55,12 @@ h3 {
 	font-weight: 300;
 }
 
-.business-information, #menu, .about-us {
-	background-image: url('../img/ricepaper_v3.png');
-	opacity: 0.9;
+body {
+
 	padding: 1em;
 }
 
-main {
+.header {
 	padding: 1em;
 	background-color: #FA5A0F;
 	border-bottom: solid; 
@@ -62,9 +68,6 @@ main {
 	border-bottom-color: #EA4A00;
 	color: #FFFFFF;
 	opacity: 90%;
-}
-
-main h2{
 	font-size:120%;
 	color: #EEEEEE;
 	margin: 0;
@@ -80,15 +83,15 @@ footer {
 	text-align: right;
 }
 
-#menu {
+.menu {
 	background: rgba(207, 205, 140, 0.9);
 }
 
-#menu dt{
+.menu dt{
 	font-weight: 400;
 }
 
-#menu dd{
+.menu dd{
 	font-size: 80%;
 	font-style: italic;
 	margin-left: 1em;
